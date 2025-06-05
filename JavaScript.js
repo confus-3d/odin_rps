@@ -27,7 +27,7 @@ function getHumanChoice() {
 
 function playRound(humanChoice, computerChoice) {
     if (humanScore < 5 && computerScore < 5) {
-        parrafo.textContent = "You choosed " + humanChoice + " and the computer choosed " + computerChoice + ".";
+        parrafo.textContent = "You choosed " + humanChoice + " - the computer choosed " + computerChoice + ".";
         console.log("You choosed " + humanChoice + " and the computer choosed " + computerChoice + ".");
         if (humanChoice == "rock") {
             switch (computerChoice) {
