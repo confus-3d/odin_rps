@@ -90,4 +90,13 @@ function playGame() {
     }
 }
 
-playGame();
+
+function alertFunction() {
+  console.log("pulsado");
+  playGame();
+}
+const boton = document.querySelector("#btn");
+
+boton.addEventListener("click", function (e) {
+  e.target.style.background = "blue";
+});
