@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
     <script src="JavaScript.js" defer></script>
+    <link rel='stylesheet' href='styles.css'/>
 </head>
 <body>
-    <button id="btn">CLICK TO PLAY</button>
+    <div id="game_container">
+        <div><h1>Rock, Paper & Scisors:</h1></div>
+        <div><h2>Man VS Machine</h2></div>
+        <div><p>Choose your weapon:</p></div>
+        <div id="btns">
+            <button id="btn_rock">ROCK</button>
+            <button id="btn_paper">PAPER</button>
+            <button id="btn_scisors">SCISORS</button>
+        </div>
+        <div>Round Result:</div>
+        <div id="parrafo"></div>
+        <div id="parrafo2"></div>
+        <div id="score">
+            <div id="human">0</div>
+            <div id="space"> - </div>
+            <div id="computer">0</div>
+        </div>
+        <div id="final"></div>
+    </div>
 </body>
 </html>

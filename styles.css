@@ -1,0 +1,44 @@
+* {
+    border: 1px dotted red;
+}
+
+body {
+    width: 100hh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game_container {
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+#btns {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#parrafo,
+#parrafo2 {
+    height: 50px;
+}
+
+#score {
+    font-size: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#final {
+    height: 50px;
+}
